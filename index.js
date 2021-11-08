@@ -5,7 +5,8 @@ footer_tooltip.classList.add("pointer")
 
 //add click event to tooltiptext
 footer_tooltip.addEventListener("click",()=>{
-    window.open("http://emmafansite.com/")
+    // window.open("http://emmafansite.com/")
+    window.open("https://en.wikipedia.org/wiki/Emma_Raducanu")
 })
 
 // //make background blur when hover on main image
