@@ -25,13 +25,9 @@ html{
     .tooltiptext {
         position: absolute;
         visibility: hidden;
-
-        // top: -500px;
         bottom: 20px;
         left: -100px;
         right: -100px;
-
-        //width: 260px;
         text-indent: 0;
         background-color: rgb(195,146,72);
         color: $white;
@@ -39,17 +35,15 @@ html{
         text-align: center;
         border-radius: 6px;
         box-shadow: $box-shadow;
-        // top: 20px;
-        // left: -100px;
         z-index: 1;
         transform: translateY(-100px);
         transition: transform 100ms ease-in-out;
 
-        @media (max-width:775px){
-            width: 160px;
-            font-size: 0.8rem;
-            left: -70px;
-        }
+        // @media (max-width:775px){
+        //     width: 160px;
+        //     font-size: 0.8rem;
+        //     left: -70px;
+        // }
 
         img{
             display: block;
