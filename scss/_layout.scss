@@ -51,6 +51,10 @@
             box-shadow: 0px 0px 100px rgb(116,174,124);
             cursor: crosshair;
 
+            &.block {
+                -webkit-mask-image: -webkit-radial-gradient(white, black);
+            }
+
             &:hover{
                 #main{
                     opacity: 0.2;
@@ -117,6 +121,7 @@
                 text-indent: 45px;
                 margin:1em;
                 text-shadow: $text-shadow-light;
+                text-align: justify;
 
                 &.quote{
                     width:60%;

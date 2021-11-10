@@ -130,6 +130,10 @@ html {
   cursor: crosshair;
 }
 
+#main main #img-div.block {
+  -webkit-mask-image: -webkit-radial-gradient(white, black);
+}
+
 #main main #img-div:hover #main {
   opacity: 0.2;
 }
@@ -208,6 +212,7 @@ html {
   text-indent: 45px;
   margin: 1em;
   text-shadow: 1px 1px 1px black;
+  text-align: justify;
 }
 
 #main main #tribute-info p.quote {
