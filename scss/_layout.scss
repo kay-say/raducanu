@@ -51,7 +51,7 @@
             box-shadow: 0px 0px 100px rgb(116,174,124);
             cursor: crosshair;
 
-            //&.block {
+            &.block {
                 // -webkit-mask-image: -webkit-radial-gradient(white, black);
 
                 // -webkit-backface-visibility: hidden;
@@ -60,10 +60,10 @@
                 // -moz-transform: translate3d(0, 0, 0);
                 // z-index: 300;
 
-                // -webkit-mask-image: -webkit-radial-gradient(white, black);
-                // border: 5px solid orange;
+                -webkit-mask-image: -webkit-radial-gradient(white, black);
+                border: 5px solid orange;
 
-            //}
+            }
 
             .selectDisable {
                 -webkit-user-select: none;

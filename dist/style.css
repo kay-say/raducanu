@@ -130,6 +130,11 @@ html {
   cursor: crosshair;
 }
 
+#main main #img-div.block {
+  -webkit-mask-image: -webkit-radial-gradient(white, black);
+  border: 5px solid orange;
+}
+
 #main main #img-div .selectDisable {
   -webkit-user-select: none;
   -moz-user-select: none;
