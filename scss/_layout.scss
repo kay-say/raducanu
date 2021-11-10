@@ -53,6 +53,7 @@
 
             &.block {
                 -webkit-mask-image: -webkit-radial-gradient(white, black);
+                border: 5px solid red;
             }
 
             &:hover{
