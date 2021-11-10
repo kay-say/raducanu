@@ -140,7 +140,7 @@ html {
   -o-user-select: none;
   -ms-user-select: none;
       user-select: none;
-  border: 5px solid red;
+  border: 5px solid green;
 }
 
 #main main #img-div:hover #main {
@@ -172,6 +172,7 @@ html {
   opacity: 0.8;
   -webkit-transition: all 500ms ease-in-out;
   transition: all 500ms ease-in-out;
+  -webkit-touch-callout: none;
 }
 
 #main main #img-div #img-caption {

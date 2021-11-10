@@ -70,7 +70,7 @@
                 -moz-user-select: none;
                 -o-user-select: none;
                 user-select: none;
-                border: 5px solid red;
+                border: 5px solid green;
             }
 
             &:hover{
@@ -97,6 +97,7 @@
                 object-fit: cover;
                 opacity: 0.8;
                 transition: all 500ms ease-in-out;
+                -webkit-touch-callout: none;
                 //z-index: -10;
 
                 // &.selectDisable {
