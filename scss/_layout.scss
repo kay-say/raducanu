@@ -53,12 +53,16 @@
 
             &.block {
                 // -webkit-mask-image: -webkit-radial-gradient(white, black);
-                -webkit-backface-visibility: hidden;
-                -moz-backface-visibility: hidden;
-                -webkit-transform: translate3d(0, 0, 0);
-                -moz-transform: translate3d(0, 0, 0);
-                border: 5px solid green;
-                z-index: 300;
+
+                // -webkit-backface-visibility: hidden;
+                // -moz-backface-visibility: hidden;
+                // -webkit-transform: translate3d(0, 0, 0);
+                // -moz-transform: translate3d(0, 0, 0);
+                // z-index: 300;
+
+                -webkit-mask-image: -webkit-radial-gradient(white, black);
+                border: 5px solid orange;
+
             }
 
             &:hover{
@@ -85,7 +89,7 @@
                 object-fit: cover;
                 opacity: 0.8;
                 transition: all 500ms ease-in-out;
-                z-index: -10;
+                //z-index: -10;
             }
 
             #img-caption{
