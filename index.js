@@ -16,3 +16,8 @@ footer_tooltip.addEventListener("click",()=>{
 // document.querySelector("#image").addEventListener("mouseleave",()=>{
 //     document.querySelector("#main").classList.toggle("change")
 // })
+
+//prevent right-click/longpress on Safari
+document.querySelector("#image").addEventListener("contextmenu",e=>{
+    e.preventDefault()
+})
