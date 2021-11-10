@@ -132,15 +132,15 @@ html {
 
 #main main #img-div.block {
   -webkit-mask-image: -webkit-radial-gradient(white, black);
-  border: 5px solid orange;
 }
 
-#main main #img-div .selectDisable {
+#main main #img-div.selectDisable {
   -webkit-user-select: none;
   -moz-user-select: none;
   -o-user-select: none;
   -ms-user-select: none;
       user-select: none;
+  border: 5px solid red;
 }
 
 #main main #img-div:hover #main {

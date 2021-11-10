@@ -61,16 +61,16 @@
                 // z-index: 300;
 
                 -webkit-mask-image: -webkit-radial-gradient(white, black);
-                border: 5px solid orange;
 
             }
 
-            .selectDisable {
+            &.selectDisable {
                 -webkit-user-select: none;
                 -khtml-user-select: none;
                 -moz-user-select: none;
                 -o-user-select: none;
                 user-select: none;
+                border: 5px solid red;
             }
 
             &:hover{
@@ -98,6 +98,16 @@
                 opacity: 0.8;
                 transition: all 500ms ease-in-out;
                 //z-index: -10;
+
+                // &.selectDisable {
+                //     -webkit-user-select: none;
+                //     -khtml-user-select: none;
+                //     -moz-user-select: none;
+                //     -o-user-select: none;
+                //     user-select: none;
+                //     padding: 100px;
+
+                // }
             }
 
             #img-caption{
