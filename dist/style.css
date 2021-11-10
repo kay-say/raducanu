@@ -135,7 +135,8 @@ html {
   -moz-backface-visibility: hidden;
   -webkit-transform: translate3d(0, 0, 0);
   -moz-transform: translate3d(0, 0, 0);
-  border: 5px solid blue;
+  border: 5px solid green;
+  z-index: 300;
 }
 
 #main main #img-div:hover #main {
@@ -167,6 +168,7 @@ html {
   opacity: 0.8;
   -webkit-transition: all 500ms ease-in-out;
   transition: all 500ms ease-in-out;
+  z-index: -10;
 }
 
 #main main #img-div #img-caption {
